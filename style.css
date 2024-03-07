@@ -1,0 +1,73 @@
+nav {
+    border: solid salmon;
+    background-color: lightblue;
+    height: 32px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .nTag {
+      
+  }
+  .nTag:hover {
+    /* border:solid grey; */
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .lcontainer,
+  .rcontainer {
+    align-items: center;
+    /* border:solid purple; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    /* float:left; */
+  }
+  .logo:hover{
+      margin-top:20%;
+      transition: 3s;
+      height:100px;
+      width:100px;
+      border:solid blue;
+      border-radius:50%;
+      background-color:orange;
+      
+  }
+  .logo2{
+      
+  }
+  form{
+      border:solid black;
+      /* width:20%; */
+      padding:1em;
+      margin:1em;
+      /* display:flex; */
+      flex-wrap:wrap;
+  }
+  .icon{
+      height:40px;
+  }
+  .masterContainer{
+      border:solid black;
+      padding:1em;
+      display: flex;
+  }
+  .login{
+      border:solid blue;
+      border-width:.2px;
+      background-color:lightgrey;
+      height:260px;
+      margin:1em;
+      width:40%;
+      padding:10px;
+      border-radius:22px;
+  }
+  .register{
+      border:solid red;
+      /* height:260px; */
+      padding:10px;
+      margin:1em;
+      width:60%;
+  }
